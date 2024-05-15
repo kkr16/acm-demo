@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: app2
   namespace: app1-customer2
   annotations:
-    configmanagement.gke.io/cluster-name-selector: abm
+    configsync.gke.io/cluster-name-selector: abm
 spec:
   selector:
     matchLabels:
