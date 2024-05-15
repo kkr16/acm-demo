@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   namespace: app1-customer2
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-location-onprem
+    configmanagement.gke.io/cluster-name-selector: abm
 spec:
   selector:
     matchLabels:
