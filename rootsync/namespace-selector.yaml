@@ -3,4 +3,4 @@ apiVersion: v1
 metadata:
   name: test-selector
   annotations:
-    configsync.gke.io/cluster-selector: autopilot-cluster-1
+    configsync.gke.io/cluster-name-selector: cluster-1
