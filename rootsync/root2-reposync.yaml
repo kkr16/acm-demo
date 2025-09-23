@@ -1,0 +1,14 @@
+apiVersion: configmanagement.gke.io/v1
+kind: RootSync
+metadata:
+  name: root2-reposync
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/kkr16/acm-demo
+    branch: main
+    dir: root2
+    period: 30s
+  clusterSelector:
+    name: selector-location-onprem
