@@ -20,6 +20,8 @@ kind: RootSync
 metadata:
   name: root2-sync
   namespace: config-management-system
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-location-onprem
 spec:
   sourceType: git
   sourceFormat: unstructured
@@ -29,5 +31,3 @@ spec:
     dir: root2
     auth: none
     period: 30s
-  clusterSelector:
-    name: selector-location-onprem
