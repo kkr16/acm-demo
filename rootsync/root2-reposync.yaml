@@ -5,7 +5,8 @@ metadata:
   name: root2-sync
   namespace: config-management-system
   annotations:
-    configsync.gke.io/cluster-selector: selector-location-onprem
+    # configsync.gke.io/cluster-selector: selector-location-onprem
+    configmanagement.gke.io/cluster-selector: selector-location-onprem    
 spec:
   sourceType: git
   sourceFormat: unstructured
