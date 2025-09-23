@@ -1,7 +1,6 @@
 kind: ClusterSelector
 apiVersion: configmanagement.gke.io/v1
 metadata:
-  namespace: config-management-system
   name: selector-location-onprem
 spec:
   selector:
