@@ -10,8 +10,8 @@
 #     branch: main
 #     dir: root2
 #     period: 30s
-  clusterSelector:
-    name: selector-location-onprem
+  # clusterSelector:
+  #   name: selector-location-onprem
 
 
 # root-sync.yaml
