@@ -1,6 +1,6 @@
 helmCharts:
-- name: ingress-nginx
-  repo: https://kubernetes.github.io
+- name: nginx
+  repo: oci://registry-1.docker.io/bitnamicharts
   version: latest
-  releaseName: ingress-nginx
-  namespace: ingress-nginx
+  releaseName: nginx
+  namespace: nginx
