@@ -1,6 +1,6 @@
 helmCharts:
 - name: nginx
-  repo: oci://registry-1.docker.io/bitnamicharts/nginx
+  repo: https://helm.nginx.com/stable/nginx
   version: latest
   releaseName: nginx
   namespace: nginx
