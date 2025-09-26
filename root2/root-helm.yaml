@@ -1,22 +1,20 @@
-# apiVersion: configsync.gke.io/v1beta1
-# kind: RootSync
-# metadata:
-#   name: helm-root
-#   namespace: config-management-system
-# spec:
-#   sourceFormat: unstructured
-#   sourceType: helm
-#   helm:
-#       repo: https://helm.nginx.com/stable/
-#       chart: nginx-ingress
-#       version: 2.3.0
-#       releaseName: nginx-ingress
-#       namespace: nginx-ingress
-#       auth: none
-#       # Use the optional field spec.helm.values to override default values.
-#       # You can use the same format as the default values file to override
-#       # default values.
-#       values:
-#         replicaCount: 2
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: mysql-root
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  sourceType: helm
+  helm:
+      repo: https://charts.bitnami.com/bitnami/
+      chart: mysql
+      version: 9.3.1
+      releaseName: mysql
+      namespace: mysql
+      auth: none
+      # Use the optional field spec.helm.values to override default values.
+      # You can use the same format as the default values file to override
+      # default values.
 
 
