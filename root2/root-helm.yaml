@@ -8,7 +8,7 @@ spec:
   sourceType: helm
   helm:
       repo: https://stefanprodan.github.io/podinfo
-      chart: nginx
+      chart: podinfo
       version: 6.9.2
       releaseName: nginx
       namespace: nginx
