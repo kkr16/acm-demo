@@ -2,3 +2,8 @@ kind: Namespace
 apiVersion: v1
 metadata:
   name: root2-namespace
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: nginx-ingress
