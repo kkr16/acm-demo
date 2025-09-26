@@ -4,3 +4,5 @@ helmCharts:
   version: 2.3.0
   releaseName: nginx-ingress
   namespace: nginx-ingress
+  values:
+    replicaCount: 2
