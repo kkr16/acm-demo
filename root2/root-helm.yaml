@@ -4,18 +4,18 @@ metadata:
   name: helm-root
   namespace: config-management-system
 spec:
-  sourceType: helm
   sourceFormat: unstructured
-helm:
-    repo: https://helm.nginx.com/stable/
-    chart: nginx-ingress
-    version: 2.3.0
-    releaseName: nginx-ingress
-    auth: none
-    # Use the optional field spec.helm.values to override default values.
-    # You can use the same format as the default values file to override
-    # default values.
-    values:
-      replicaCount: 2
+  sourceType: helm
+  helm:
+      repo: https://helm.nginx.com/stable/
+      chart: nginx-ingress
+      version: 2.3.0
+      releaseName: nginx-ingress
+      auth: none
+      # Use the optional field spec.helm.values to override default values.
+      # You can use the same format as the default values file to override
+      # default values.
+      values:
+        replicaCount: 2
 
 
