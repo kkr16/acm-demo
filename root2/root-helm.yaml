@@ -7,9 +7,9 @@ spec:
   sourceFormat: unstructured
   sourceType: helm
   helm:
-      repo: https://charts.bitnami.com/bitnami
+      repo: https://stefanprodan.github.io/podinfo
       chart: nginx
-      version: 0.1.8
+      version: 6.9.2
       releaseName: nginx
       namespace: nginx
       auth: none
