@@ -4,7 +4,6 @@ metadata:
   name: helm-root
   namespace: config-management-system
 spec:
-  sourceFormat: unstructured
   sourceType: helm
   helm:
     repo: https://helm.nginx.com/stable/
@@ -18,3 +17,5 @@ spec:
     # default values.
     values:
       replicaCount: 2
+
+
