@@ -6,6 +6,7 @@ metadata:
 spec:
   sourceType: helm
   helm:
+    sourceFormat: unstructured
     repo: https://helm.nginx.com/stable/
     chart: nginx-ingress
     version: 2.3.0
