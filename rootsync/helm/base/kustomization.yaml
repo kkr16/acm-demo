@@ -1,0 +1,6 @@
+helmCharts:
+- name: ingress-nginx
+  repo: https://kubernetes.github.io
+  version: latest
+  releaseName: ingress-nginx
+  namespace: ingress-nginx
