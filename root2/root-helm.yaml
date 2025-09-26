@@ -7,9 +7,9 @@ spec:
   sourceFormat: unstructured
   sourceType: helm
   helm:
-      repo: oci://registry-1.docker.io/bitnamicharts/nginx
+      repo: oci://registry-1.docker.io/cloudpirates/nginx
       chart: nginx
-      version: 21.1.23
+      version: 0.1.8
       releaseName: nginx
       namespace: nginx
       auth: none
