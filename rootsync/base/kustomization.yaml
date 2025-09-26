@@ -1,6 +1,6 @@
 helmCharts:
 - name: nginx
-  repo: https://helm.nginx.com/stable/nginx
+  repo: https://helm.nginx.com/stable/
   version: latest
   releaseName: nginx
   namespace: nginx
