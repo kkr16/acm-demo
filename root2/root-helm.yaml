@@ -5,8 +5,8 @@ metadata:
   namespace: config-management-system
 spec:
   sourceType: helm
-  helm:
-    sourceFormat: unstructured
+  sourceFormat: unstructured
+helm:
     repo: https://helm.nginx.com/stable/
     chart: nginx-ingress
     version: 2.3.0
