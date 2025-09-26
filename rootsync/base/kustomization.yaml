@@ -1,6 +1,6 @@
 helmCharts:
-- name: nginx
+- name: nginx-ingress
   repo: https://helm.nginx.com/stable/
   version: latest
-  releaseName: nginx
-  namespace: nginx
+  releaseName: nginx-ingress
+  namespace: nginx-ingress
