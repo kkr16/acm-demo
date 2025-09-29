@@ -2,7 +2,7 @@
 apiVersion: configsync.gke.io/v1beta1
 kind: RootSync
 metadata:
-  name: root2-sync
+  name: apache-rootsync
   namespace: config-management-system
 spec:
   sourceType: git
@@ -10,6 +10,6 @@ spec:
   git:
     repo: https://github.com/kkr16/acm-demo
     branch: main
-    dir: root2
+    dir: apache
     auth: none
     period: 30s
