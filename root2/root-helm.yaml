@@ -7,7 +7,7 @@ spec:
   sourceFormat: unstructured
   sourceType: helm
   helm:
-      repo: oci://registry.vmware.com/bitnami
+      repo: oci://registry-1.docker.io/bitnamicharts/nginx
       chart: nginx
       version: 21.1.23
       releaseName: nginx
