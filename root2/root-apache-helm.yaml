@@ -17,7 +17,7 @@ spec:
       # You can use the same format as the default values file to override
       # default values.
       valuesFileRefs:
-      - name: helm-apache-values-base
+      - name: helm-apache-values-base-2
         dataKey: values.yaml
-      - name: helm-apache-values
+      - name: helm-apache-values-2
         dataKey: values.yaml
