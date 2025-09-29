@@ -1,17 +1,17 @@
 apiVersion: configsync.gke.io/v1beta1
 kind: RootSync
 metadata:
-  name: nginx-root
+  name: apache-root
   namespace: config-management-system
 spec:
   sourceFormat: unstructured
   sourceType: helm
   helm:
-      repo: oci://registry-1.docker.io/bitnamicharts/nginx
-      chart: nginx
-      version: 21.1.23
-      releaseName: nginx
-      namespace: nginx
+      repo: https://charts.bitnami.com/bitnami
+      chart: apache
+      version: 11.4.29
+      releaseName: apache
+      namespace: apache
       auth: none
       # Use the optional field spec.helm.values to override default values.
       # You can use the same format as the default values file to override
