@@ -1,8 +1,0 @@
-helmCharts:
-- name: nginx-ingress
-  repo: https://helm.nginx.com/stable/
-  version: 2.3.0
-  releaseName: nginx-ingress
-  namespace: nginx-ingress
-  values:
-    replicaCount: 2

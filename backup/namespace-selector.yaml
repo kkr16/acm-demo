@@ -1,6 +1,0 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: test-selector
-  annotations:
-    configsync.gke.io/cluster-name-selector: autopilot-cluster-1
