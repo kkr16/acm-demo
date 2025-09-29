@@ -5,8 +5,6 @@ metadata:
   namespace: config-management-system
   configmanagement.gke.io/cluster-selector: selector-env-prod
 immutable: true
-# You can use the same format as the default values file to override
-# default values.
 data:
   values.yaml: |-
     replicaCount: 2
