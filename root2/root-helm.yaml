@@ -9,7 +9,7 @@ spec:
   helm:
       repo: oci://registry.vmware.com/bitnami
       chart: nginx
-      version: 6.9.2
+      version: 21.1.23
       releaseName: nginx
       namespace: nginx
       auth: none
