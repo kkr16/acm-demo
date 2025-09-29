@@ -3,7 +3,8 @@
 # metadata:
 #   name: helm-apache-values
 #   namespace: config-management-system
-#   configmanagement.gke.io/cluster-selector: selector-env-dev
+#   annotations:
+#     configmanagement.gke.io/cluster-selector: selector-env-dev
 # immutable: true
 # data:
 #   values.yaml: |-
