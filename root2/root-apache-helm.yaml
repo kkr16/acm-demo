@@ -18,4 +18,4 @@ spec:
       # default values.
       valuesFileRefs:
       - name: helm-apache-values
-        dataKey: config.yaml
+        dataKey: values.yaml
