@@ -3,8 +3,6 @@ kind: RootSync
 metadata:
   name: apache-root
   namespace: config-management-system
-  annotations:
-    configmanagement.gke.io/cluster-selector: selector-env-prod, selector-env-dev
 spec:
   sourceFormat: unstructured
   sourceType: helm
