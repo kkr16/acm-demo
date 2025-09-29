@@ -3,7 +3,8 @@ kind: ConfigMap
 metadata:
   name: helm-apache-values
   namespace: config-management-system
-  configmanagement.gke.io/cluster-selector: selector-env-prod
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-env-prod
 immutable: true
 data:
   values.yaml: |-
